@@ -1,0 +1,21 @@
+.App {
+  margin-left: 37%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 6.3in;
+  width: 3.2in;
+  border-radius: 30px;
+  border: 5px solid orange;
+}
+
+.phoneButtons {
+  width: 2.5in;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 900;
+  color: blueviolet;
+}

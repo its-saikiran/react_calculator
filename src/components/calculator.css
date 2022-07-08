@@ -1,0 +1,37 @@
+.dataContainer {
+    height: 2.2in;
+    width: 3.1in;
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
+    font-size: 2.5em;
+    padding: 30px 30px 0px 0px;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    border: 5px solid green;
+    border-radius: 15px;
+}
+
+
+.container {
+    height: 3.5in;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,65px);
+    justify-content: space-around;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 1.7em;
+    height: 45px;
+}
+
+.col {
+    color: orange;
+    box-shadow: 1px 1px 3px 3px;
+}
+
